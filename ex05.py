@@ -30,4 +30,5 @@ for x in d:
     for y in e:
         if y==x and y not in f:
             f.append(y)
+f.sort()
 print("This is where d and e have the same items:",f)

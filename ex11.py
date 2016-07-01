@@ -13,5 +13,6 @@ def primeornot(i):
     else:
         print(i,"is a prime")
 
+
 i=int(input("Please give me a number:"))
 primeornot(i)
